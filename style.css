@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+.slide-container{
+    position: relative;
+    bottom: 0;
+    top: 100px;
+    width: 100%;
+}
+.slide img{
+    width: 100%;
+}
+.button{
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    color: black;
+    background-color: white;
+    opacity: 0.8;
+    padding: 8px 20px;
+    font-size: 20px;
+}
+.next{
+    right: 0;
+    padding: 8px 30px;
+}
+.caption{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px 0px;    
+}
+.slide{
+    display: none;
+}
